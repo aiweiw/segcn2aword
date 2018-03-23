@@ -6,7 +6,7 @@ from __future__ import absolute_import, unicode_literals
 import codecs
 import sys
 
-from segcont.seg_cn_a_word import SegCNAWord
+from seg_cn_a_word import SegCNAWord
 
 
 def main():

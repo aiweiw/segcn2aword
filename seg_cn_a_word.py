@@ -5,7 +5,7 @@ from __future__ import absolute_import, unicode_literals
 
 import re
 
-from ._compat import *
+from _compat import *
 
 re_han = re.compile('([\u4E00-\u9FD5]+)', re.U)
 re_skip = re.compile('(\t\r\n\f\v|\s)', re.U)
@@ -66,3 +66,8 @@ class SegCNAWord(object):
                 tmplist.append(k)
             DAG[k] = tmplist
         return DAG
+
+dt = SegCNAWord()
+
+seg_cont = dt.seg_cont
+
