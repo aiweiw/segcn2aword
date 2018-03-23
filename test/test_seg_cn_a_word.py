@@ -15,8 +15,6 @@ def main():
         reload(sys)
         sys.setdefaultencoding('utf8')
 
-    # src_file = '/home/uww/fastText/matTextData/data/segAnsj/1.txt.ansj.learn'
-    # src_file = '/home/uww/Work/Projgram/PyProj/skip-thought-tf/data/9107.txt.ansj.learn'
     src_file = '../../data/aytrain.txt'
     tgt_file = '../../data/aytrain.txt.a.word'
     test_seg = SegCNAWord()
